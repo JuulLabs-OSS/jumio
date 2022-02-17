@@ -1,5 +1,7 @@
 # Jumio
 
+[![Specs](https://github.com/JuulLabs-OSS/jumio/actions/workflows/specs.yml/badge.svg)](https://github.com/JuulLabs-OSS/jumio/actions/workflows/specs.yml)
+
 This is a client to communicate with the [Jumio Netverify Web API](https://github.com/Jumio/implementation-guides/tree/master/netverify) to perform age verification.
 
 ## Installation
