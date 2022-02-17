@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://netverify.com/api/netverify/v2/scans/1828c1ec-2f87-46ce-b3c9-cc47a1241bb0/data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Company App/v1.0.0
+      Host:
+      - netverify.com
+      Authorization:
+      - Basic OTRkOWFlOTEtYzViOC00ZTY2LWJmMWUtZDQxYzQ5MjM0MjczOkFoaTFzcWpLeDVZRThDbFFkZFNlQUlTZ2o1Q1lHSVpx
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 06 Nov 2018 20:54:59 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Trackingid:
+      - e5080deb-9302-40e0-9cdb-e60f75c42dcb
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"timestamp":"2018-11-06T20:54:59.933Z","scanReference":"1828c1ec-2f87-46ce-b3c9-cc47a1241bb0","document":{"type":"DRIVING_LICENSE","address":{"country":"CAN","streetNumber":"3348","streetName":"CONISTON","streetSuffix":"CR","city":"CUMBERLAND","stateCode":"CA-BC","zip":"V0R
+        1S0"},"dob":"1982-08-03","expiry":"2019-08-03","firstName":"KEVIN BRADLEY","issuingCountry":"CAN","lastName":"ATTFIELD","number":"7054509","status":"APPROVED_VERIFIED","usState":"BC"},"transaction":{"customerId":"spree_users:59","date":"2018-11-02T22:35:18.763Z","merchantScanReference":"age_verifications:59","source":"WEB_UPLOAD","status":"DONE"},"verification":{"identityVerification":{"similarity":"MATCH","validity":"true"},"mrzCheck":"NOT_AVAILABLE"}}'
+    http_version:
+  recorded_at: Tue, 06 Nov 2018 20:54:59 GMT
+recorded_with: VCR 4.0.0

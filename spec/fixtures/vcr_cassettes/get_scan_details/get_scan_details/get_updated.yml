@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://netverify.com/api/netverify/v2/scans/63c69f89-ccae-4108-bc32-4b621bccb5b9/data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Company App/v1.0.0
+      Host:
+      - netverify.com
+      Authorization:
+      - Basic OTRkOWFlOTEtYzViOC00ZTY2LWJmMWUtZDQxYzQ5MjM0MjczOmMweG5oWjhQNXF0R2h6TEM2NERDdmRSOUtMSUU0YlU0
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 27 Aug 2019 14:58:12 GMT
+      X-Trackingid:
+      - 5c3415e6-ec65-485f-a19b-26f9e25f42fe
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"timestamp":"2019-08-27T14:58:13.440Z","scanReference":"63c69f89-ccae-4108-bc32-4b621bccb5b9","document":{"type":"DRIVING_LICENSE","address":{"country":"CAN","streetNumber":"123","streetName":"FAKE","streetSuffix":"ST","city":"VICTORIA","stateCode":"CA-BC","zip":"A1A
+        1A1"},"dob":"1986-11-04","expiry":"2020-11-04","firstName":"JOHN JOHNNY","issuingCountry":"CAN","lastName":"DOE","number":"1234567","status":"DENIED_FRAUD","usState":"BC"},"transaction":{"clientIp":"184.69.100.122","customerId":"spree_users:33","date":"2019-08-08T17:15:45.725Z","merchantScanReference":"age_verifications:1648308d-c388-4e62-9274-8ee56f959e94@veratad.juul.com","source":"WEB_CAM","status":"DONE","updatedAt":"2019-08-09T20:12:32.234Z"},"verification":{"identityVerification":{"reason":"VALID","similarity":"MATCH","validity":"true"},"mrzCheck":"NOT_AVAILABLE","rejectReason":{"rejectReasonCode":"100","rejectReasonDescription":"MANIPULATED_DOCUMENT","rejectReasonDetails":{"detailsCode":"1002","detailsDescription":"DOCUMENT_NUMBER"}}}}'
+    http_version:
+  recorded_at: Tue, 27 Aug 2019 14:58:13 GMT
+recorded_with: VCR 4.0.0

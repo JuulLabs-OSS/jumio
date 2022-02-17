@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+require 'jumio/entities/address'
+require 'jumio/entities/api_entity'
+require 'jumio/entities/document'
+require 'jumio/entities/identity_verification'
+require 'jumio/entities/reject_reason_details'
+require 'jumio/entities/reject_reason'
+require 'jumio/entities/requestable_record'
+require 'jumio/entities/scan_status'
+require 'jumio/entities/scan'
+require 'jumio/entities/transaction'
+require 'jumio/entities/types'
+require 'jumio/entities/verification_response'
+require 'jumio/entities/verification'

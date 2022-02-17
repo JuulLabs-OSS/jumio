@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://netverify.com/api/v4/initiate
+    body:
+      encoding: UTF-8
+      string: '{"customerInternalReference":"customerInternalReference","userReference":"userReference"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Company App/v1.0.0
+      Host:
+      - netverify.com
+      Authorization:
+      - Basic OTRkOWFlOTEtYzViOC00ZTY2LWJmMWUtZDQxYzQ5MjM0MjczOkFoaTFzcWpLeDVZRThDbFFkZFNlQUlTZ2o1Q1lHSVpx
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 06 Nov 2018 20:05:47 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"timestamp":"2018-11-06T20:05:47.545Z","transactionReference":"72dd50c0-311d-4a27-a1aa-fc1b77cdbf7d","redirectUrl":"https://netverify.com/web/v4/app?authorizationToken=eyJhbGciOiJIUzUxMiIsInppcCI6IkdaSVAifQ.H4sIAAAAAAAAAB3MPQ7CMAxA4bt4rqU4fw7dGLtyA8d2JihSKRIS4u4U1qdP7w3-Ou8wU8lUUi2ZS2oTyGIwA0ezEjRgIjLMEhmFRHAodWa1PthgAr34OLQ-H_v95tuy7r6tcj2qb76q_8j_R-1URf0YpNAxR-7YuFdMZRgnI-0i8PkCbkfXF5MAAAA.a509IxCM5bQXdqd84NH5IpBWeV_4572ozevl2Fugi0oguZtWG8-mKu5RyV-DNRXYpJrZB2aKaosCIK0nAH_94Q&locale=en-US"}'
+    http_version:
+  recorded_at: Tue, 06 Nov 2018 20:05:47 GMT
+recorded_with: VCR 4.0.0
