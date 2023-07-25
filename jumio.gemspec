@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-configurable'
   spec.add_dependency 'dry-container'
   spec.add_dependency 'dry-monads'
-  spec.add_dependency "dry-schema", "~> 1.6.0"
-  spec.add_dependency 'dry-struct', '~> 1.4.0'
+  spec.add_dependency "dry-schema", "~> 1.6"
+  spec.add_dependency 'dry-struct', '~> 1.4'
 
   spec.add_development_dependency "activesupport"
   spec.add_development_dependency "rake", "~> 10.0"
